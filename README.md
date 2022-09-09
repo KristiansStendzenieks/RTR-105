@@ -8,3 +8,12 @@
 *~~Professional text editing~~*
 
 ![Dr. Luther Sanchez](https://avatars.steamstatic.com/22048f2f77995c90596eee78ecd98b884789c5e5_full.jpg)
+
+> Commands
+
+*Ctrl+L = Clear Terminal
+/ = root folders
+Ctrl+Alt+F1 | Ctrl+Alt+F7
+who
+whoami
+ls*
