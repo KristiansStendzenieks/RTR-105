@@ -21,3 +21,11 @@
 4. whoami
 
 5. ls
+
+6. cd ~  | home
+
+7. mkdir [name]
+
+8. echo
+
+9. mv 
