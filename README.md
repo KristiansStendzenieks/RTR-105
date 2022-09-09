@@ -11,9 +11,13 @@
 
 > Commands
 
-*Ctrl+L = Clear Terminal
+1. *Ctrl+L = Clear Terminal
 / = root folders
-Ctrl+Alt+F1 | Ctrl+Alt+F7
-who
-whoami
-ls*
+
+2. Ctrl+Alt+F1 | Ctrl+Alt+F7
+
+3. who
+
+4. whoami
+
+5. ls
