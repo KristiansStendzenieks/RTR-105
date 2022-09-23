@@ -9,6 +9,6 @@ echo "Fifth Parameter : $5"
 echo "Quoted Values: $@"
 echo "Quoted Values: $*"
 echo "Total Number of Parameters : $#"
-echo "Please enter some text: "
-read var_string
-echo "you have entered: $var_string"
+#echo "Please enter some text: "
+#read var_string
+#echo "you have entered: $var_string"
