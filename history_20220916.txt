@@ -1,0 +1,65 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox 
+    4  ls
+    5  man man
+    6  ls
+    7  whereis ls
+    8  ls -la
+    9  whereis ls
+   10  pwd
+   11  ls -l /bin/ls
+   12  cd /bin
+   13  ls
+   14  ls -la
+   15  ls
+   16  ls -lt
+   17  cd
+   18  whereis ls
+   19  ls -lt /bin/ls
+   20  sudo apt -U
+   21  cd
+   22  cat /bin/ls
+   23  clear
+   24  ls
+   25  whreis ls
+   26  whereis ls
+   27  ls -lt /bin/ls
+   28  nano hello-world
+   29  ls -la
+   30  ls -lt
+   31  chmod 744 hello-world
+   32  ls -lt
+   33  hello-world 
+   34  cat hello-world 
+   35  clear
+   36  nano hello-world 
+   37  ls -lt
+   38  cat hello-world 
+   39  lear
+   40  clear
+   41  ./hello-world 
+   42  ~/hello-world 
+   43  /home/user/hello-world 
+   44  hello-world
+   45  sudo snap install hello-world
+   46  whereis ls
+   47  history
+   48  sudo apt -U
+   49  echo $PATH
+   50  PATH=$PATH
+   51  echo $PATH
+   52  PATH=$PATH: /home/user/:~:.
+   53  PATH=$PATH:/home/user/:~:.
+   54  echo $PATH
+   55  hello-world 
+   56  git clone https://github.com/KristiansStendzenieks/RTR-105
+   57  >histoery
+   58  history
+   59  mv hello-world RTR-105/
+   60  ls -lt
+   61  cd RTR-105/
+   62  ls -lt
+   63  nano git-upload
+   64  chmod 744 git-upload 
+   65  history  > history_20220916.txt
