@@ -1,0 +1,127 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox 
+    4  ls
+    5  man man
+    6  ls
+    7  whereis ls
+    8  ls -la
+    9  whereis ls
+   10  pwd
+   11  ls -l /bin/ls
+   12  cd /bin
+   13  ls
+   14  ls -la
+   15  ls
+   16  ls -lt
+   17  cd
+   18  whereis ls
+   19  ls -lt /bin/ls
+   20  sudo apt -U
+   21  cd
+   22  cat /bin/ls
+   23  clear
+   24  ls
+   25  whreis ls
+   26  whereis ls
+   27  ls -lt /bin/ls
+   28  nano hello-world
+   29  ls -la
+   30  ls -lt
+   31  chmod 744 hello-world
+   32  ls -lt
+   33  hello-world 
+   34  cat hello-world 
+   35  clear
+   36  nano hello-world 
+   37  ls -lt
+   38  cat hello-world 
+   39  lear
+   40  clear
+   41  ./hello-world 
+   42  ~/hello-world 
+   43  /home/user/hello-world 
+   44  hello-world
+   45  sudo snap install hello-world
+   46  whereis ls
+   47  history
+   48  sudo apt -U
+   49  echo $PATH
+   50  PATH=$PATH
+   51  echo $PATH
+   52  PATH=$PATH: /home/user/:~:.
+   53  PATH=$PATH:/home/user/:~:.
+   54  echo $PATH
+   55  hello-world 
+   56  git clone https://github.com/KristiansStendzenieks/RTR-105
+   57  >histoery
+   58  history
+   59  mv hello-world RTR-105/
+   60  ls -lt
+   61  cd RTR-105/
+   62  ls -lt
+   63  nano git-upload
+   64  chmod 744 git-upload 
+   65  history  > history_20220916.txt
+   66  git-upload
+   67  history
+   68  nano git-upload 
+   69  cd
+   70  RTR-105/
+   71  history
+   72  clear
+   73  sudo apt --Upgared
+   74  cd
+   75  ~/RTR-105/
+   76  pwd
+   77  ls -lt
+   78  remove histoery 
+   79  delete histoery 
+   80  pwd
+   81  rm -rf RTR-105/
+   82  rm histoery 
+   83  ls -lt
+   84  pwd
+   85  ls -lta
+   86  git clone https://github.com/KristiansStendzenieks/RTR-105
+   87  cd RTR-105/
+   88  ls -lta
+   89  nano git-upload 
+   90  nano linux_special_variables_test.shnano linux_special_variables_test.sh
+   91  nano linux_special_variables_test.sh
+   92  chmod 744 linux_special_variables_test.sh 
+   93  linux_special_variables_test.sh
+   94  linux_special_variables_test.sh On Cinema At The Cinema
+   95  ls -lta
+   96  linux_special_variables_test.sh 123
+   97  linux_special_variables_test.sh 123 2
+   98  linux_special_variables_test.sh A B
+   99  linux_special_variables_test.sh A B C D E
+  100  nano linux_special_variables_test.sh 
+  101  linux_special_variables_test.sh A B C D E
+  102  linux_special_variables_test.sh TU ESI LOHS
+  103  nano linux_special_variables_test.sh 
+  104  linux_special_variables_test.sh 
+  105  linux_special_variables_test.sh 1 2 3 4 5 
+  106  clear
+  107  linux_special_variables_test.sh 1 2 3 4 5 
+  108  nano linux_special_variables_test.sh 
+  109  ls -lt
+  110  nano linux_special_variables_test.sh 
+  111  nano token.sh
+  112  token.sh kristiansstendzenieks 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
+  113  chmod 744 token.sh 
+  114  token.sh kristiansstendzenieks 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
+  115  ls -lt
+  116  ls -lta
+  117  linux_special_variables_test.sh 
+  118  token.sh 
+  119  git-upload
+  120  clear
+  121  history
+  122  mv linux_special_variables_test.sh test.sh
+  123  test.sh
+  124  nano test.sh
+  125  test.sh test1 test2 test3
+  126  git-upload
+  127  history > history23092022b.txt
