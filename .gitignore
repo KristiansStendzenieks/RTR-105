@@ -1,0 +1,5 @@
+# ignorēt izpildāmus failus - failus ar paplašināujumu ".out"
+*.out
+
+# ignorēt objekta failus ar paplašinājumu .o
+*.o

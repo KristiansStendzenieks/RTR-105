@@ -1,0 +1,92 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  git clone https://github.com/KristiansStendzenieks/RTR-105
+    5  cd RTR-105/
+    6  ls -lt
+    7  mkdir Class_06
+    8  cd Class_06/
+    9  ls -lt ../
+   10  cat ../hello-world 
+   11  ls
+   12  cat /bin/ls
+   13  clear
+   14  nano first.c
+   15  ls -lt
+   16  cat first.c
+   17  gcc first.c
+   18  ls -lt
+   19  cat.out
+   20  cat a.out
+   21  clear
+   22  ls -lt
+   23  ./a.out 
+   24  cat first.c 
+   25  gcc first.c -o first.out
+   26  ls-lt
+   27  ls -lt
+   28  ./first.out 
+   29  gcc first.c -o first.out
+   30  ls -lt
+   31  ./first.out 
+   32  nano first.
+   33  nano first.c
+   34  ls -lt
+   35  nano first.c
+   36  cd ..
+   37  pwd
+   38  ls -lta
+   39  ./tests.out 
+   40  pwd
+   41  nano .gitignore
+   42  cd Class_06/
+   43  ls -lt
+   44  nano first.c
+   45  gcc -save-temps first.c -o first.out
+   46  nano first.c
+   47  gcc -save-temps first.c -o first.out
+   48  ls -lt
+   49  cat first.c
+   50  cat first.i
+   51  clear
+   52  cat first.s
+   53  cat first.c
+   54  cat first.o
+   55  clear
+   56  echo $?
+   57  cat first.o
+   58  echo $?
+   59  clwear
+   60  clar
+   61  clear
+   62  a.out
+   63  echo $?
+   64  nano first.c
+   65  gcc -save-temps first.c -o first.out
+   66  ls -lt
+   67  ./first.out 
+   68  echo $?
+   69  nano first.c
+   70  ./first.out 
+   71  gcc -save-temps first.c -o first.out
+   72  ./first.out 
+   73  echo $?
+   74  nano first.c
+   75  gcc -save-temps first.c -o first.out
+   76  ./first.out 
+   77  nano first.c
+   78  ./first.out 
+   79  echo $?
+   80  nano first.c
+   81  gcc -save-temps first.c -o first.out
+   82  ./first.out 
+   83  echo $?
+   84  nano first.c
+   85  gcc -save-temps first.c -o first.out
+   86  echo $?
+   87  ./first.out 
+   88  echo $?
+   89  cd
+   90  cd RTR-105/
+   91  nano .gitignore
+   92  history > history_Class06.txt
