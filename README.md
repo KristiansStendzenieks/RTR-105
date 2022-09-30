@@ -54,3 +54,10 @@
 
 
 
+./filename.exe - Lai palaistu failu no konkrētās mapes
+gcc - kompilēt kodu
+gcc -save-temps filename.c -o filenemate.out - saves temprorary compilator files
+cat vieew file 
+return - last piece of code, after it everything below is ignored
+return 23; - returns 23 after successfull execution 
+
