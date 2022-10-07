@@ -1,0 +1,89 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/kristiansstendzenieks/RTR-105
+    4  cd RTR-105/
+    5  ./tetris 
+    6  ls
+    7  ./tetris
+    8  ./tetris.out
+    9  pwd
+   10  gcc tetris .c
+   11  gcc tetris.c
+   12  clear
+   13  ./tetris
+   14  sudo apt-get libncurses
+   15  clear
+   16  mkdir Class_07
+   17  cd Class_07
+   18  nano skaitlu_sistemas.txt
+   19  CLEAR
+   20  clar
+   21  ccd
+   22  cd
+   23  clear
+   24  o[fgajsdopag > a.txt; ls
+   25  ls
+   26  sladklaskdlas > a.txt
+   27  nano sladklaskdlas > a.txt
+   28  echo Popcorn_Classics /n
+   29  echo /n Popcorn_Classics
+   30  echo "Popcorn"
+   31  echo "Popcorn"**classics**
+   32  echo "Popcorn"*classics*
+   33  echo "Popcorn"'classics'
+   34  echo "Popcorn" 'classics'
+   35  echo man
+   36  man echo
+   37  echo On Cinema: -n  on Defense
+   38  echo -n On Cinema: On Defense
+   39  echo -n -e On Cinema: On Defense
+   40  echo -n -E On Cinema: On Defense
+   41  echo -n -E On Cinema: On Def -n 
+   42  echo -n -E On Cinema: On Defense -n DKR
+   43  echo -n -E On Cinema: On Defense
+   44  -n echo On Cinema: On Defense
+   45  echo -n On Cinema: On Defense
+   46  echo On Cinema: On Defense
+   47  clear
+   48  nano 
+   49  nano Class07 
+   50  echo "012345\n6789\tabcde\vfghijk\blmnop\rqr"
+   51  echo -e "012345\n6789\tabcde\vfghijk\blmnop\rqr"
+   52  nano Class07 
+   53  man echo
+   54  nano Class07 
+   55  git clone https://github.com/kristiansstendzenieks/RTR-105
+   56  cd RTR-105/
+   57  mkdir Class_08
+   58  cd Class_0
+   59  cd Class_08
+   60  clear
+   61  nano Class_08_printf_test.c
+   62  nano Class_08_scanf_test.c
+   63  gcc Class_08_printf_test.c 
+   64  nano Class_08_printf_test.c
+   65  gcc Class_08_printf_test.c 
+   66  nano Class_08_scanf_test.c
+   67  gcc Class_08_scanf_test.c 
+   68  ls
+   69  ls -l
+   70  gcc Class_08_printf_test.c -o Class_08_printf_test
+   71  gcc Class_08_scanf_test.c -o Class_08_scanf_test
+   72  ls ;t
+   73  ls -lt
+   74  rm a.out 
+   75  ls -tla
+   76  gcc Class_08_printf_test.c -o Class_08_printf_test.out
+   77  gcc Class_08_scanf_test.c -o Class_08_scanf_test.out
+   78  ls -lta
+   79  rm Class_08_scanf_test
+   80  rm Class_08_printf_test
+   81  ls
+   82  ls -l
+   83  ./Class_08_printf_test.out 
+   84  ./Class_08_scanf_test.out 
+   85  cd
+   86  cd RTR-105/
+   87  ./git-upload kristiansstendzenieks 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
+   88  cd Class_08
+   89  history > history08.txt
