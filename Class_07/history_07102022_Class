@@ -1,0 +1,7 @@
+   29  cd RTR-105/
+   30  ls -l
+   31  ./tests.out
+   32  ./tests.c
+   33  cat tetris.c
+   34  cd Class_07
+   35  history > history_07102022_Class 7
