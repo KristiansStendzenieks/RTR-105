@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+ {
+ char a; // mainīgā ar identifikatoru(vai vārdu) "a" deklarēšana
+	 // ar identifikatoru a viennozīmīgi tiek sasaistīts kāds atiņas apgabals
+	 // kur (vieta) un cik (izmērs)?
+	 // uz jautājumu kur? (adrese) atbildēsim citā nodarbībā
+	 // cik? 
+ return 0;
+ }

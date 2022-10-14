@@ -1,0 +1,5 @@
+Naturalie - 1,2,3,4 etc 
+Veselie - -3,-2,-1,0,1
+Racionālie - m/n mCZ 
+Reālie - -1.234, -2.312, 3,123
+Kompleksie - 
