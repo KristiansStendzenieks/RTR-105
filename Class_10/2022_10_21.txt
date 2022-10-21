@@ -1,0 +1,117 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/kristiansstendzenieks/RTR-105
+    4  cd RTR-105/
+    5  mkdir Class_10
+    6  cd Class_10
+    7  nano operations_tests.c
+    8  ls
+    9  exit
+   10  cd RTR-105/Class_10
+   11  ls
+   12  nano operations_tests.c
+   13  gcc operations_tests.c -o operations_tests.out
+   14  ls
+   15  rm operations_tests.c.save
+   16  ls
+   17  ./operations_tests.out 
+   18  nano operations_tests.c
+   19  gcc operations_tests.c -o operations_tests.out
+   20  ./operations_tests.out 
+   21  cd ..
+   22  ./git-upload kristiansstendzenieks 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
+   23  nano operations_tests.c
+   24  cd Class_10
+   25  nano operations_tests.c
+   26  gcc operations_tests.c -o operations_tests.out
+   27  ./operations_tests.out 
+   28  nano operations_tests.c
+   29  gcc operations_tests.c -o operations_tests.out
+   30  ./operations_tests.out 
+   31  nano operations_tests.c
+   32  gcc operations_tests.c -o operations_tests.out
+   33  ./operations_tests.out 
+   34  nano operations_tests.c
+   35  gcc operations_tests.c -o operations_tests.out
+   36  ./operations_tests.out 
+   37  nano operations_tests.c
+   38  gcc operations_tests.c -o operations_tests.out
+   39  ./operations_tests.out 
+   40  nano operations_tests.c
+   41  gcc operations_tests.c -o operations_tests.out
+   42  ./operations_tests.out 
+   43  nano operations_tests.c
+   44  gcc operations_tests.c -o operations_tests.out
+   45  nano operations_tests.c
+   46  gcc operations_tests.c -o operations_tests.out
+   47  ./operations_tests.out 
+   48  nano operations_tests.c
+   49  gcc operations_tests.c -o operations_tests.out
+   50  ./operations_tests.out 
+   51  nano operations_tests.c
+   52  gcc operations_tests.c -o operations_tests.out
+   53  ./operations_tests.out 
+   54  nano operations_tests.c
+   55  gcc operations_tests.c -o operations_tests.out
+   56  ./operations_tests.out 
+   57  nano operations_tests.c
+   58  gcc operations_tests.c -o operations_tests.out
+   59  ./operations_tests.out 
+   60  nano operations_tests.c
+   61  gcc operations_tests.c -o operations_tests.out
+   62  nano operations_tests.c
+   63  gcc operations_tests.c -o operations_tests.out
+   64  nano operations_tests.c
+   65  gcc operations_tests.c -o operations_tests.out
+   66  ./operations_tests.out 
+   67  nano operations_tests.c
+   68  gcc operations_tests.c -o operations_tests.out
+   69  ./operations_tests.out 
+   70  nano operations_tests.c
+   71  cd ..
+   72  git-upload kristiansstendzenieks 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
+   73  ./git-upload kristiansstendzenieks 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
+   74  nano operations_tests.c
+   75  cd Class_10
+   76  nano operations_tests.c
+   77  gcc operations_tests.c -o operations_tests.out
+   78  ./operations_tests.out 
+   79  nano operations_tests.c
+   80  gcc operations_tests.c -o operations_tests.out
+   81  ./operations_tests.out 
+   82  nano operations_tests.c
+   83  gcc operations_tests.c -o operations_tests.out
+   84  ./operations_tests.out 
+   85  nano operations_tests.c
+   86  gcc operations_tests.c -o operations_tests.out
+   87  ./operations_tests.out 
+   88  nano operations_tests.c
+   89  gcc operations_tests.c -o operations_tests.out
+   90  ./operations_tests.out 
+   91  nano operations_tests.c
+   92  gcc operations_tests.c -o operations_tests.out
+   93  nano operations_tests.c
+   94  gcc operations_tests.c -o operations_tests.out]
+   95  ./operations_tests.out 
+   96  nano operations_tests.c
+   97  gcc operations_tests.c -o operations_tests.out]
+   98  ./operations_tests.out 
+   99  nano operations_tests.c
+  100  gcc operations_tests.c -o operations_tests.out]
+  101  ./operations_tests.out 
+  102  nano operations_tests.c
+  103  gcc operations_tests.c -o operations_tests.out]
+  104  ./operations_tests.out 
+  105  cd ..
+  106  cd  Class_10
+  107  ls
+  108  ./operations_tests.out]
+  109  rm operations_tests.out]
+  110  nano operations_tests.c
+  111  gcc operations_tests.c -o operations_tests.out]
+  112  gcc operations_tests.c -o operations_tests.out
+  113  rm operations_tests.out]
+  114  gcc operations_tests.c -o operations_tests.out
+  115  ./operations_tests.out]
+  116  ./operations_tests.out
+  117  history > 2022_10_21.txt

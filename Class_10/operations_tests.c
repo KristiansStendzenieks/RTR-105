@@ -40,8 +40,8 @@
 
 int main()
  {
- char c1 = 'A', c2 = 0x45;
- int i1 = 1232, i2 = 1747;
+ char c1 = 'A', c2 = 0x42;
+ int i1 = 400, i2 = 1000;
  float f1 = 2.3, f2 = -770.896;
  double d1 = -5.6e4, d2 = 456.8e-3;
 
@@ -60,8 +60,8 @@ int main()
 // 5.6 % 0.25 -> (C valodā ;-) ) ... kļūda ;-)
 
 // &&
- c1 = 0x64;
- c2 = 0x32;
+ c1 = 0x12;
+ c2 = 0x24;
  printf("\n%d (%ld bytes) && %d (%ld bytes)",c1,sizeof(c1),c2,sizeof(c2));
  printf(" = %d (%ld bytes)\n\n",c1&&c2,sizeof(c1&&c2));
 
@@ -93,18 +93,23 @@ int main()
  c1 = 2;
  printf("%d (%ld bytes) << %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",uc1<<c1,sizeof(uc1<<c1)); // 0000 0100 (4 dec)
+
  c1 = 3;
  printf("%d (%ld bytes) << %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",uc1<<c1,sizeof(uc1<<c1)); // 0000 1000 (8 dec)
+
  c1 = 4;
  printf("%d (%ld bytes) << %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",uc1<<c1,sizeof(uc1<<c1)); // 0000 1000 (8 dec)
+
  c1 = 5;
  printf("%d (%ld bytes) << %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",uc1<<c1,sizeof(uc1<<c1)); // 0000 1000 (8 dec)
+
  c1 = 6;
  printf("%d (%ld bytes) << %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",uc1<<c1,sizeof(uc1<<c1)); // 0000 1000 (8 dec)
+
  c1 = 7;
  printf("%d (%ld bytes) << %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",uc1<<c1,sizeof(uc1<<c1)); // 0000 1000 (8 dec)
@@ -113,17 +118,32 @@ int main()
  printf(" = %d (%ld bytes)\n",(char)(uc1<<c1),sizeof((char)(uc1<<c1))); // 0000 1000 (8 dec)
  printf("%d (%ld bytes) << %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",(unsigned char)(uc1<<c1),sizeof((unsigned char)(uc1<<c1))); // 0000 1000 (8 dec)
+
  c1 = 31;
  printf("%d (%ld bytes) << %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n\n",uc1<<c1,sizeof(uc1<<c1)); // 0000 1000 (8 dec)
 
  uc1 = 120; // 0111 1000
+
+// "A" (char) | 2000(dec int)
+// 					0100 0001 ->
+//	 0000 0000 0000 0000 0000 0000 	0100 0001
+//	 0000 0000 0000 0000 0000 0111  1101 0000 (2000 dec)
+//
+ printf("(char)128 = %d\n",(char)128);
+ c1 = 128;
+ c1 = (char)128;
+ //printf("c1 = %d + compiler warning \n",c1);
+ printf("%d\n",c1); //slinkuma pēc drīkst rakstīt ļoti kompakti ...
+
  c1 = 1;
  printf("\n%d (%ld bytes) >> %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",uc1>>c1,sizeof(uc1>>c1)); // 0011 1100 (60 dec)
+
  c1 = 2;
  printf("%d (%ld bytes) >> %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",uc1>>c1,sizeof(uc1>>c1)); // 0001 1110 (30 dec)
+
  c1 = 3;
  printf("%d (%ld bytes) >> %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
  printf(" = %d (%ld bytes)\n",uc1>>c1,sizeof(uc1>>c1)); // 0000 1111 (15 dec)
