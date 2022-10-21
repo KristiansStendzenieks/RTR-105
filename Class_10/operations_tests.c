@@ -41,7 +41,7 @@
 int main()
  {
  char c1 = 'A', c2 = 0x45;
- int i1 = 2000, i2 = 01056;
+ int i1 = 1232, i2 = 1747;
  float f1 = 2.3, f2 = -770.896;
  double d1 = -5.6e4, d2 = 456.8e-3;
 
@@ -60,8 +60,8 @@ int main()
 // 5.6 % 0.25 -> (C valodā ;-) ) ... kļūda ;-)
 
 // &&
- c1 = 1;
- c2 = 2;
+ c1 = 0x64;
+ c2 = 0x32;
  printf("\n%d (%ld bytes) && %d (%ld bytes)",c1,sizeof(c1),c2,sizeof(c2));
  printf(" = %d (%ld bytes)\n\n",c1&&c2,sizeof(c1&&c2));
 
@@ -70,9 +70,9 @@ int main()
 
 // !
  printf("\n%d (%ld bytes) -> !%d=%d (%ld bytes)\n",c1,sizeof(c1),c1,!c1,sizeof(!c1));
- c1 = 0;
+ c1 = 0x69;
  printf("\n%d (%ld bytes) -> !%d=%d (%ld bytes)\n",c1,sizeof(c1),c1,!c1,sizeof(!c1));
- //printf("\n%.1f (%ld bytes) -> !%.1f=%.1f (%ld bytes)\n\n",f1,sizeof(f1),f1,!f1,sizeof(!f1));
+// printf("\n%.1f (%ld bytes) -> !%.1f=%.1f (%ld bytes)\n\n",f1,sizeof(f1),f1,!f1,sizeof(!f1));
  printf("\n%.1f (%ld bytes) -> !%.1f=%d (%ld bytes)\n\n",f1,sizeof(f1),f1,!f1,sizeof(!f1));
  f1 = 0.0000001;
  printf("\n%e (%ld bytes) -> !%e=%d (%ld bytes)\n\n",f1,sizeof(f1),f1,!f1,sizeof(!f1));
