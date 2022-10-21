@@ -68,5 +68,17 @@ int main()
  else
 	printf("Vēl vairāk a(%d) ir mazāks par b(%d)\n",a,b);
  }
+
+// komentārs par PU3:
+// lietotājs ievadīs 3 skaitļus, kuri tiks saglabāti 3 mainīgajos
+// 1. algoritms - attēlot šos mainīgos dazādā secībā - a,b,c vai a,c,b vai b,a,c utt.
+// 2. algoritms - samainīt mainīgo vērtības vietam un beigās VIENMĒR attēlot a,b,c
+
+// saisībā ar otro algoritmu jautājums
+// a ir 5 un b ir 10, kā dabūt, lai a ir 10 un b ir 5?
+// viens no risinājumiem temp = a; a = b; b = temp;
+// https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/
+
+
  return 0;
  }
