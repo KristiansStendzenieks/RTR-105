@@ -130,11 +130,15 @@ int main()
 //	 0000 0000 0000 0000 0000 0000 	0100 0001
 //	 0000 0000 0000 0000 0000 0111  1101 0000 (2000 dec)
 //
- printf("(char)128 = %d\n",(char)128);
- c1 = 128;
- c1 = (char)128;
+ printf("(char)2000 = %d\n",(char)2000);
+ c1 = 2000;
+ c1 = (char)2000;
  //printf("c1 = %d + compiler warning \n",c1);
  printf("%d\n",c1); //slinkuma pēc drīkst rakstīt ļoti kompakti ...
+
+(float)2000; // pārbaude vai darbība vispār ir iespējama
+		// rezultāts nekur netiek saglabāts un attēlots
+!!2000; 	//-"-
 
  c1 = 1;
  printf("\n%d (%ld bytes) >> %d (%ld bytes)",uc1,sizeof(uc1),c1,sizeof(c1));
