@@ -1,0 +1,67 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/kristiansstendzenieksRTR-105
+    4  git clone https://github.com/kristiansstendzenieks/RTR-105
+    5  cd RTR-105/
+    6  mkdir Class_12
+    7  cd Class_
+    8  cd Class_12
+    9  pwd
+   10  nano loops.txt
+   11  cp loopts while_tests.c
+   12  cp loops while_tests.c
+   13  cp loops.txt while_tests.c
+   14  nano while_tests.c 
+   15  gcc while_tests.c 
+   16  ./a.out 
+   17  nano while_tests.c 
+   18  gcc while_tests.c 
+   19  ./a.out 
+   20  nano while_tests.c 
+   21  gcc while_tests.c 
+   22  ./a.out 
+   23  gcc while_tests.c -o while_tests.out
+   24  ./while_tests.out 
+   25  nano while_tests.c 
+   26  gcc while_tests.c -o while_tests.out
+   27  nano while_tests.c 
+   28  ./while_tests.out 
+   29  nano while_tests.c 
+   30  gcc while_tests.c -o while_tests.out
+   31  ./while_tests.out 
+   32  nano while_tests.c 
+   33  gcc while_tests.c -o while_tests.out
+   34  nano while_tests.c 
+   35  cp while_tests.c for_tests.c
+   36  nano for_tests.c 
+   37  gcc for_tests.c -o for_tests.out
+   38  ./for_tests.out 
+   39  nano for_tests.c 
+   40  gcc for_tests.c -o for_tests.out
+   41  ./for_tests.out 
+   42  ./for_tests.out ./for_tests.out 
+   43  nano for_tests.c 
+   44  gcc for_tests.c -o for_tests.out
+   45  ./for_tests.out
+   46  nano for_tests.c 
+   47  gcc for_tests.c -o for_tests.out
+   48  ./for_tests.out
+   49  nano for_tests.c 
+   50  cp while_tests.c do_while_tests.c
+   51  nano do_while_tests.c 
+   52  gcc do_while_tests.c 
+   53  nano do_while_tests.c 
+   54  nano factorial.c
+   55  gcc factorial.c 
+   56  nano factorial.c
+   57  gcc factorial.c 
+   58  nano factorial.c
+   59  gcc factorial.c 
+   60  ./a.out ./a.out 
+   61  ./a.out
+   62  cd ..
+   63  ./a.out
+   64  cd Class_12
+   65  gcc -g factorial.c -o without.out
+   66  gdb without.out 
+   67  history > history_2022_10_28.txt
