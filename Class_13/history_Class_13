@@ -1,0 +1,94 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/kristiansstendzenieks/RTR-105
+    4  mkdir Class_13
+    5  cd RTR-105/
+    6  mkdir Class_13
+    7  cd Class_13
+    8  cd
+    9  cd RTR-105/Class_13
+   10  pwd
+   11  nano user_functions_tests.c
+   12  gcc user_functions_tests.c 
+   13  ./a.out
+   14  nano user_functions_tests.c
+   15  gcc user_functions_tests.c 
+   16  ./a.out1
+   17  ./a.out
+   18  nano user_functions_tests.c
+   19  ./a.out
+   20  nano user_functions_tests.c
+   21  gcc user_functions_tests.c 
+   22  ./a.out
+   23  nano user_functions_tests.c
+   24  gcc user_functions_tests.c 
+   25  nano user_functions_tests.c
+   26  gcc user_functions_tests.c 
+   27  ./a.out
+   28  nano user_functions_tests.c
+   29  gcc user_functions_tests.c 
+   30  ./a.out
+   31  nano user_functions_tests.c
+   32  cp user_functions_tests_style.c
+   33  cp user_functions_tests_style.c user_functions_tests_style.c
+   34  cp user_functions_tests.c user_functions_tests_style.c
+   35  nano user_functions_tests_style.c 
+   36  gcc user_functions_tests_style.c 
+   37  nano user_functions_tests_style.c 
+   38  gcc user_functions_tests_style.c 
+   39  ./a.out
+   40  nano user_functions_tests_style.c 
+   41  gcc -g user_functions_tests_style.c 
+   42  clear
+   43  ls -lt
+   44  ./a.out 
+   45  gdb a.out
+   46  nano user_functions_tests_style.c 
+   47  gcc -g user_functions_tests_style.c 
+   48  nano user_functions_tests_style.c 
+   49  gcc -g user_functions_tests_style.c 
+   50  nano user_functions_tests_style.c 
+   51  gcc -g user_functions_tests_style.c 
+   52  gcc user_functions_tests_style.c 
+   53  la -la
+   54  clear
+   55  nano foo.h
+   56  nano foo.c
+   57  nano main.c
+   58  nano foo.h
+   59  gcc -wall -c foo.c
+   60  gcc -Wall -c foo.c
+   61  gcc -Wall -c main.c
+   62  ls -la
+   63  gcc -o result.out main.o foo.o
+   64  ls -lt
+   65  ./result.out 
+   66  gcc -c --save-temps main.c
+   67  ls -lt
+   68  clear
+   69  nano main.c
+   70  nano main_with_arg.c
+   71  gcc main_with_arg.c 
+   72  ./a.out 
+   73  cat ./a.out
+   74  cat ./main_with_arg.c 
+   75  nano main_with_arg.c
+   76  gcc main_with_arg.c 
+   77  nano main_with_arg.c
+   78  gcc main_with_arg.c 
+   79  nano main_with_arg.c
+   80  gcc main_with_arg.c 
+   81  ./a.out
+   82  cp a.out bbb.out
+   83  ./bbb.out 
+   84  ./bbb.out a b c d 
+   85  clear
+   86  gcc main_with_arg.c 
+   87  nano main_with_arg.c
+   88  gcc main_with_arg.c 
+   89  nano main_with_arg.c
+   90  gcc main_with_arg.c 
+   91  nano main_with_arg.c
+   92  gcc main_with_arg.c 
+   93  ./a.out 16 32 64 128
+   94  history > history_Class_13
